@@ -7,6 +7,6 @@ const apiRoutes = express.Router();
 
 apiRoutes.use("/users", userRoutes);
 apiRoutes.use("/roles", rolRoutes);
-//apiRoutes.use("/tasks", taskRoutes);
+apiRoutes.use("/tasks", taskRoutes);
 
 module.exports = apiRoutes;
